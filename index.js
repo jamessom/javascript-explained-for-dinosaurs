@@ -1,4 +1,8 @@
 // index.js
-console.log("------ Hello from JavaScript! ------");
+import moment from 'moment';
 
-console.log(moment().startOf('day').fromNow());
+var firula = "------";
+console.log(`${firula} Hello from JavaScript! ${firula}`);
+
+var time = moment().startOf('day').fromNow()
+console.log(`Somewhare at time... ${time}`);
